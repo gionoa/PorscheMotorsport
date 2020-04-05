@@ -11,6 +11,6 @@ import Foundation
 enum PorscheFont: String {
     case Bold = "PorscheNext-Bold"
     case Regular = "PorscheNext-Regular"
-    case SemiBold = "PorscheNext-SemiBold.otf"
-    case Thing = "PorscheNext-Thin.otf"
+    case SemiBold = "PorscheNext-SemiBold"
+    case Thin = "PorscheNext-Thin"
 }

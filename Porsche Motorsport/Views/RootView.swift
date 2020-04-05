@@ -14,21 +14,30 @@ struct RootView: View {
     var body: some View {
         TabView {
             NavigationView {
-                 VehiclesView()
+                VehiclesView()
             }
-           
-                .tabItem {
+                
+            .tabItem {
+                VStack {
                     Text("Vehicles")
+                    Image(systemName: "car")
+                }
             }
             
             BlogPostsView()
                 .tabItem {
-                    Text("Blog")
+                    VStack {
+                        Text("Blog")
+                        Image(systemName: "text.bubble")
+                    }
             }
             
             PartnersView()
                 .tabItem {
-                    Text("Partners")
+                    VStack {
+                        Text("Partners")
+                        Image(systemName: "gauge")
+                    }
             }
         }
     }
