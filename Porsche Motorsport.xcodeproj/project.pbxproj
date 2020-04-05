@@ -3,10 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A6D24395B2D007B36C5 /* ImageStore.swift */; };
+		60620A7324395B41007B36C5 /* ViewModels in Resources */ = {isa = PBXBuildFile; fileRef = 60620A6F24395B41007B36C5 /* ViewModels */; };
+		60620A7424395B41007B36C5 /* Porsche Font in Resources */ = {isa = PBXBuildFile; fileRef = 60620A7024395B41007B36C5 /* Porsche Font */; };
+		60620A7624395B41007B36C5 /* Views in Resources */ = {isa = PBXBuildFile; fileRef = 60620A7224395B41007B36C5 /* Views */; };
+		60620A7E24395C49007B36C5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7D24395C49007B36C5 /* RootView.swift */; };
+		60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7F24395C53007B36C5 /* VehiclesView.swift */; };
+		60620A8324395C6E007B36C5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */; };
+		60620A8524395C7E007B36C5 /* BlogPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8424395C7E007B36C5 /* BlogPostsView.swift */; };
+		60620A8724395C92007B36C5 /* PorscheFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8624395C92007B36C5 /* PorscheFont.swift */; };
+		60620A8924395D2B007B36C5 /* PartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8824395D2B007B36C5 /* PartnersView.swift */; };
 		6063DE6A243886ED002C1536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE69243886ED002C1536 /* AppDelegate.swift */; };
 		6063DE6C243886ED002C1536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE6B243886ED002C1536 /* SceneDelegate.swift */; };
 		6063DE6E243886ED002C1536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE6D243886ED002C1536 /* ContentView.swift */; };
@@ -27,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60620A6D24395B2D007B36C5 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		60620A6F24395B41007B36C5 /* ViewModels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ViewModels; sourceTree = "<group>"; };
+		60620A7024395B41007B36C5 /* Porsche Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Porsche Font"; sourceTree = "<group>"; };
+		60620A7224395B41007B36C5 /* Views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Views; sourceTree = "<group>"; };
+		60620A7D24395C49007B36C5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		60620A7F24395C53007B36C5 /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
+		60620A8424395C7E007B36C5 /* BlogPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostsView.swift; sourceTree = "<group>"; };
+		60620A8624395C92007B36C5 /* PorscheFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheFont.swift; sourceTree = "<group>"; };
+		60620A8824395D2B007B36C5 /* PartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersView.swift; sourceTree = "<group>"; };
 		6063DE66243886ED002C1536 /* Porsche Motorsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porsche Motorsport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6063DE69243886ED002C1536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6063DE6B243886ED002C1536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60620A8324395C6E007B36C5 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +99,16 @@
 		6063DE68243886ED002C1536 /* Porsche Motorsport */ = {
 			isa = PBXGroup;
 			children = (
+				60620A7D24395C49007B36C5 /* RootView.swift */,
+				60620A7F24395C53007B36C5 /* VehiclesView.swift */,
+				60620A8424395C7E007B36C5 /* BlogPostsView.swift */,
+				60620A8824395D2B007B36C5 /* PartnersView.swift */,
+				60620A8624395C92007B36C5 /* PorscheFont.swift */,
+				60620A7024395B41007B36C5 /* Porsche Font */,
+				60620A6F24395B41007B36C5 /* ViewModels */,
+				60620A7224395B41007B36C5 /* Views */,
 				6063DE69243886ED002C1536 /* AppDelegate.swift */,
+				60620A6D24395B2D007B36C5 /* ImageStore.swift */,
 				6063DE6B243886ED002C1536 /* SceneDelegate.swift */,
 				6063DE6D243886ED002C1536 /* ContentView.swift */,
 				6063DE6F243886ED002C1536 /* Assets.xcassets */,
@@ -123,6 +152,9 @@
 			dependencies = (
 			);
 			name = "Porsche Motorsport";
+			packageProductDependencies = (
+				60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */,
+			);
 			productName = "Porsche Motorsport";
 			productReference = 6063DE66243886ED002C1536 /* Porsche Motorsport.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +205,9 @@
 				Base,
 			);
 			mainGroup = 6063DE5D243886ED002C1536;
+			packageReferences = (
+				60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 6063DE67243886ED002C1536 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -189,8 +224,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6063DE76243886ED002C1536 /* LaunchScreen.storyboard in Resources */,
+				60620A7324395B41007B36C5 /* ViewModels in Resources */,
 				6063DE73243886ED002C1536 /* Preview Assets.xcassets in Resources */,
+				60620A7424395B41007B36C5 /* Porsche Font in Resources */,
 				6063DE70243886ED002C1536 /* Assets.xcassets in Resources */,
+				60620A7624395B41007B36C5 /* Views in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +248,13 @@
 			files = (
 				6063DE6A243886ED002C1536 /* AppDelegate.swift in Sources */,
 				6063DE6C243886ED002C1536 /* SceneDelegate.swift in Sources */,
+				60620A8924395D2B007B36C5 /* PartnersView.swift in Sources */,
+				60620A8524395C7E007B36C5 /* BlogPostsView.swift in Sources */,
 				6063DE6E243886ED002C1536 /* ContentView.swift in Sources */,
+				60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */,
+				60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */,
+				60620A7E24395C49007B36C5 /* RootView.swift in Sources */,
+				60620A8724395C92007B36C5 /* PorscheFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6063DE5E243886ED002C1536 /* Project object */;
 }
