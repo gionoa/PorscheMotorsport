@@ -11,41 +11,69 @@ import SwiftUI
 import SDWebImageSwiftUI
 
 struct VehicleDetailView: View {
+    @State var isShowingVideo = false
+    
+    let vehicle: Vehicle
     
     var body: some View {
-            ScrollView {
-                VStack(alignment: .leading, spacing: 8) {
-                    WebImage(url: URL(string: "https://files.porsche.com/filestore/image/multimedia/none/motorsport-racingcars-992-rsr-sideshot/model/3c0f56bc-5319-11ea-80c8-005056bbdc38;sF/porsche-model.png")!)
-                        .resizable()
-                        .scaledToFit()
+        ScrollView {
+            VStack(alignment: .leading, spacing: 8) {
+                WebImage(url: URL(string: vehicle.url)!)
+                    .resizable()
+                    .scaledToFit()
+                
+                Text("Technical Specs")
+                    .font(.custom(PorscheFont.Thin.rawValue, size: 36))
+                    .foregroundColor(Color.gray)
+                    .padding(.leading, 8)
+                
+                HTechSpecDescription(titleText: "Power",
+                                    detailText: vehicle.power)
+                
+                HTechSpecDescription(titleText: "Engine",
+                                    detailText: vehicle.engine)
+                
+                HTechSpecDescription(titleText: "Weight",
+                                    detailText: vehicle.weight)
+                
+                HTechSpecDescription(titleText: "Transmission",
+                                    detailText: vehicle.transmission)
+                
+                HTechSpecDescription(titleText: "Displacement",
+                                    detailText: vehicle.displacement)
+                
+                Text("The new 911 RSR.")
+                    .font(.custom(PorscheFont.Regular.rawValue, size: 32))
+                
+                Text("Team made.")
+                    .font(.custom(PorscheFont.Regular.rawValue, size: 28))
+                
+                ZStack(alignment: .center) {
                     
-                    Text("Technical Specs")
-                        .font(.custom(PorscheFont.Thin.rawValue, size: 36))
-                        .foregroundColor(Color.gray)
-                        .padding(.leading, 8)
-                                        
-                    HTecSpecDescription(titleText: "Power",
-                                        detailText: "Approx. 378kW (515PS), depending on restrictor")
+                    Button(action: {self.isShowingVideo = true}) {
+                        AnimatedImage(url: URL(string: "https://media.giphy.com/media/KfSwx9ASQQm4p8JNul/giphy.gif"))
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: UIScreen.main.bounds.width, height: 420)
+                    }
+                    .sheet(isPresented: $isShowingVideo) {
+                        Text("Hey")
+                            .onDisappear {
+                                
+                        }
+                    }
                     
-                    HTecSpecDescription(titleText: "Engine",
-                                        detailText: "Water-cooled six cylinder boxer engine, positioned in front of the rear axle")
-                    
-                    HTecSpecDescription(titleText: "Weight",
-                                        detailText: "approx. 1,245kg (subject to BOP)")
-                    
-                    HTecSpecDescription(titleText: "Transmission",
-                                        detailText: "Six-speed sequential dog-type transmission, weight optimized")
-                    
-                    HTecSpecDescription(titleText: "Displacement",
-                                        detailText: "4,194cm³")
+                    Image(systemName: "play.circle")
+                        .font(.system(size: 60))
                 }
             }
-        
-        .navigationBarTitle("911 RSR (2019)")
+        }
+            
+        .navigationBarTitle(vehicle.name)
     }
 }
 
-struct HTecSpecDescription: View {
+struct HTechSpecDescription: View {
     let titleText: String
     let detailText: String
     
