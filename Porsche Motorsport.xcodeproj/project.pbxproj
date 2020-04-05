@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		601EC4B22439A97F008FCCCB /* VehicleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B12439A97F008FCCCB /* VehicleDetailView.swift */; };
+		601EC4B42439C2F6008FCCCB /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B32439C2F6008FCCCB /* VehicleView.swift */; };
+		601EC4B82439C371008FCCCB /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B72439C371008FCCCB /* Vehicle.swift */; };
 		60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A6D24395B2D007B36C5 /* ImageStore.swift */; };
 		60620A7E24395C49007B36C5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7D24395C49007B36C5 /* RootView.swift */; };
 		60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7F24395C53007B36C5 /* VehiclesView.swift */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		601EC4B12439A97F008FCCCB /* VehicleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailView.swift; sourceTree = "<group>"; };
+		601EC4B32439C2F6008FCCCB /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		601EC4B72439C371008FCCCB /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		60620A6D24395B2D007B36C5 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
 		60620A7D24395C49007B36C5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		60620A7F24395C53007B36C5 /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
@@ -84,6 +88,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601EC4B52439C360008FCCCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				601EC4B72439C371008FCCCB /* Vehicle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		6063DE5D243886ED002C1536 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +117,7 @@
 		6063DE68243886ED002C1536 /* Porsche Motorsport */ = {
 			isa = PBXGroup;
 			children = (
+				601EC4B52439C360008FCCCB /* Models */,
 				6072F89724398DB30019771A /* Views */,
 				6072F894243988D20019771A /* Porsche Font */,
 				6063DE69243886ED002C1536 /* AppDelegate.swift */,
@@ -165,6 +178,7 @@
 				60620A7F24395C53007B36C5 /* VehiclesView.swift */,
 				60620A8424395C7E007B36C5 /* BlogPostsView.swift */,
 				60620A8824395D2B007B36C5 /* PartnersView.swift */,
+				601EC4B32439C2F6008FCCCB /* VehicleView.swift */,
 			);
 			path = TabViews;
 			sourceTree = "<group>";
@@ -280,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601EC4B82439C371008FCCCB /* Vehicle.swift in Sources */,
 				60620A8F24395F25007B36C5 /* PorscheFont.swift in Sources */,
 				6063DE6A243886ED002C1536 /* AppDelegate.swift in Sources */,
 				6063DE6C243886ED002C1536 /* SceneDelegate.swift in Sources */,
@@ -287,6 +302,7 @@
 				60620A8924395D2B007B36C5 /* PartnersView.swift in Sources */,
 				60620A8524395C7E007B36C5 /* BlogPostsView.swift in Sources */,
 				6063DE6E243886ED002C1536 /* ContentView.swift in Sources */,
+				601EC4B42439C2F6008FCCCB /* VehicleView.swift in Sources */,
 				60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */,
 				60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */,
 				60620A7E24395C49007B36C5 /* RootView.swift in Sources */,
