@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		601EC4B22439A97F008FCCCB /* VehicleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B12439A97F008FCCCB /* VehicleDetailView.swift */; };
+		601EC4B42439C2F6008FCCCB /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B32439C2F6008FCCCB /* VehicleView.swift */; };
+		601EC4B82439C371008FCCCB /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B72439C371008FCCCB /* Vehicle.swift */; };
+		601EC4BA2439D2A8008FCCCB /* HTechSpecDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4B92439D2A8008FCCCB /* HTechSpecDescriptionView.swift */; };
+		601EC4BC243B0AC4008FCCCB /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4BB243B0AC4008FCCCB /* VideoPlayer.swift */; };
+		601EC4BE243B0B47008FCCCB /* VehiclesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 601EC4BD243B0B47008FCCCB /* VehiclesViewModel.swift */; };
+		60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A6D24395B2D007B36C5 /* ImageStore.swift */; };
+		60620A7E24395C49007B36C5 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7D24395C49007B36C5 /* RootView.swift */; };
+		60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A7F24395C53007B36C5 /* VehiclesView.swift */; };
+		60620A8324395C6E007B36C5 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */; };
+		60620A8524395C7E007B36C5 /* BlogPostsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8424395C7E007B36C5 /* BlogPostsView.swift */; };
+		60620A8924395D2B007B36C5 /* PartnersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8824395D2B007B36C5 /* PartnersView.swift */; };
+		60620A8F24395F25007B36C5 /* PorscheFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60620A8B24395F24007B36C5 /* PorscheFont.swift */; };
+		60620A902439603D007B36C5 /* PorscheNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60620A8C24395F24007B36C5 /* PorscheNext-Bold.otf */; };
+		60620A9124396046007B36C5 /* PorscheNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60620A8D24395F24007B36C5 /* PorscheNext-Regular.otf */; };
+		60620A9224396048007B36C5 /* PorscheNext-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60620A8E24395F25007B36C5 /* PorscheNext-SemiBold.otf */; };
+		60620A932439604A007B36C5 /* PorscheNext-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 60620A8A24395F24007B36C5 /* PorscheNext-Thin.otf */; };
 		6063DE6A243886ED002C1536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE69243886ED002C1536 /* AppDelegate.swift */; };
 		6063DE6C243886ED002C1536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE6B243886ED002C1536 /* SceneDelegate.swift */; };
 		6063DE6E243886ED002C1536 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE6D243886ED002C1536 /* ContentView.swift */; };
@@ -14,6 +31,7 @@
 		6063DE73243886ED002C1536 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6063DE72243886ED002C1536 /* Preview Assets.xcassets */; };
 		6063DE76243886ED002C1536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6063DE74243886ED002C1536 /* LaunchScreen.storyboard */; };
 		6063DE81243886ED002C1536 /* Porsche_MotorsportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6063DE80243886ED002C1536 /* Porsche_MotorsportTests.swift */; };
+		6072F896243989B80019771A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6072F895243989B80019771A /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		601EC4B12439A97F008FCCCB /* VehicleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailView.swift; sourceTree = "<group>"; };
+		601EC4B32439C2F6008FCCCB /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		601EC4B72439C371008FCCCB /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		601EC4B92439D2A8008FCCCB /* HTechSpecDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTechSpecDescriptionView.swift; sourceTree = "<group>"; };
+		601EC4BB243B0AC4008FCCCB /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		601EC4BD243B0B47008FCCCB /* VehiclesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewModel.swift; sourceTree = "<group>"; };
+		60620A6D24395B2D007B36C5 /* ImageStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStore.swift; sourceTree = "<group>"; };
+		60620A7D24395C49007B36C5 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		60620A7F24395C53007B36C5 /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
+		60620A8424395C7E007B36C5 /* BlogPostsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostsView.swift; sourceTree = "<group>"; };
+		60620A8824395D2B007B36C5 /* PartnersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersView.swift; sourceTree = "<group>"; };
+		60620A8A24395F24007B36C5 /* PorscheNext-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PorscheNext-Thin.otf"; sourceTree = "<group>"; };
+		60620A8B24395F24007B36C5 /* PorscheFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheFont.swift; sourceTree = "<group>"; };
+		60620A8C24395F24007B36C5 /* PorscheNext-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PorscheNext-Bold.otf"; sourceTree = "<group>"; };
+		60620A8D24395F24007B36C5 /* PorscheNext-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PorscheNext-Regular.otf"; sourceTree = "<group>"; };
+		60620A8E24395F25007B36C5 /* PorscheNext-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PorscheNext-SemiBold.otf"; sourceTree = "<group>"; };
 		6063DE66243886ED002C1536 /* Porsche Motorsport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Porsche Motorsport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6063DE69243886ED002C1536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6063DE6B243886ED002C1536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +72,7 @@
 		6063DE7C243886ED002C1536 /* Porsche MotorsportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Porsche MotorsportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6063DE80243886ED002C1536 /* Porsche_MotorsportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Porsche_MotorsportTests.swift; sourceTree = "<group>"; };
 		6063DE82243886ED002C1536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6072F895243989B80019771A /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60620A8324395C6E007B36C5 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +94,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		601EC4B52439C360008FCCCB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				601EC4B72439C371008FCCCB /* Vehicle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		601EC4BF243B0B61008FCCCB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				601EC4BD243B0B47008FCCCB /* VehiclesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		6063DE5D243886ED002C1536 = {
 			isa = PBXGroup;
 			children = (
@@ -79,7 +131,14 @@
 		6063DE68243886ED002C1536 /* Porsche Motorsport */ = {
 			isa = PBXGroup;
 			children = (
+				6072F895243989B80019771A /* UIColor+Extension.swift */,
+				601EC4BB243B0AC4008FCCCB /* VideoPlayer.swift */,
+				601EC4B52439C360008FCCCB /* Models */,
+				6072F89724398DB30019771A /* Views */,
+				601EC4BF243B0B61008FCCCB /* ViewModels */,
+				6072F894243988D20019771A /* Porsche Font */,
 				6063DE69243886ED002C1536 /* AppDelegate.swift */,
+				60620A6D24395B2D007B36C5 /* ImageStore.swift */,
 				6063DE6B243886ED002C1536 /* SceneDelegate.swift */,
 				6063DE6D243886ED002C1536 /* ContentView.swift */,
 				6063DE6F243886ED002C1536 /* Assets.xcassets */,
@@ -107,6 +166,40 @@
 			path = "Porsche MotorsportTests";
 			sourceTree = "<group>";
 		};
+		6072F894243988D20019771A /* Porsche Font */ = {
+			isa = PBXGroup;
+			children = (
+				60620A8B24395F24007B36C5 /* PorscheFont.swift */,
+				60620A8C24395F24007B36C5 /* PorscheNext-Bold.otf */,
+				60620A8D24395F24007B36C5 /* PorscheNext-Regular.otf */,
+				60620A8E24395F25007B36C5 /* PorscheNext-SemiBold.otf */,
+				60620A8A24395F24007B36C5 /* PorscheNext-Thin.otf */,
+			);
+			path = "Porsche Font";
+			sourceTree = "<group>";
+		};
+		6072F89724398DB30019771A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				60620A7D24395C49007B36C5 /* RootView.swift */,
+				601EC4B12439A97F008FCCCB /* VehicleDetailView.swift */,
+				601EC4B92439D2A8008FCCCB /* HTechSpecDescriptionView.swift */,
+				6072F89924398DD50019771A /* TabViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6072F89924398DD50019771A /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				60620A7F24395C53007B36C5 /* VehiclesView.swift */,
+				60620A8424395C7E007B36C5 /* BlogPostsView.swift */,
+				60620A8824395D2B007B36C5 /* PartnersView.swift */,
+				601EC4B32439C2F6008FCCCB /* VehicleView.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,6 +216,9 @@
 			dependencies = (
 			);
 			name = "Porsche Motorsport";
+			packageProductDependencies = (
+				60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */,
+			);
 			productName = "Porsche Motorsport";
 			productReference = 6063DE66243886ED002C1536 /* Porsche Motorsport.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 6063DE5D243886ED002C1536;
+			packageReferences = (
+				60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 6063DE67243886ED002C1536 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,9 +287,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60620A902439603D007B36C5 /* PorscheNext-Bold.otf in Resources */,
 				6063DE76243886ED002C1536 /* LaunchScreen.storyboard in Resources */,
+				60620A9124396046007B36C5 /* PorscheNext-Regular.otf in Resources */,
 				6063DE73243886ED002C1536 /* Preview Assets.xcassets in Resources */,
+				60620A932439604A007B36C5 /* PorscheNext-Thin.otf in Resources */,
 				6063DE70243886ED002C1536 /* Assets.xcassets in Resources */,
+				60620A9224396048007B36C5 /* PorscheNext-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,9 +311,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				601EC4B82439C371008FCCCB /* Vehicle.swift in Sources */,
+				601EC4BE243B0B47008FCCCB /* VehiclesViewModel.swift in Sources */,
+				601EC4BA2439D2A8008FCCCB /* HTechSpecDescriptionView.swift in Sources */,
+				60620A8F24395F25007B36C5 /* PorscheFont.swift in Sources */,
 				6063DE6A243886ED002C1536 /* AppDelegate.swift in Sources */,
 				6063DE6C243886ED002C1536 /* SceneDelegate.swift in Sources */,
+				601EC4B22439A97F008FCCCB /* VehicleDetailView.swift in Sources */,
+				60620A8924395D2B007B36C5 /* PartnersView.swift in Sources */,
+				60620A8524395C7E007B36C5 /* BlogPostsView.swift in Sources */,
 				6063DE6E243886ED002C1536 /* ContentView.swift in Sources */,
+				601EC4B42439C2F6008FCCCB /* VehicleView.swift in Sources */,
+				60620A8024395C53007B36C5 /* VehiclesView.swift in Sources */,
+				601EC4BC243B0AC4008FCCCB /* VideoPlayer.swift in Sources */,
+				60620A6E24395B2D007B36C5 /* ImageStore.swift in Sources */,
+				60620A7E24395C49007B36C5 /* RootView.swift in Sources */,
+				6072F896243989B80019771A /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +589,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		60620A8224395C6E007B36C5 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60620A8124395C6E007B36C5 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6063DE5E243886ED002C1536 /* Project object */;
 }
