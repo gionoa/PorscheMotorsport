@@ -16,29 +16,35 @@ struct RootView: View {
             NavigationView {
                 VehiclesView()
             }
-                
             .tabItem {
-                VStack {
-                    Text("Vehicles")
-                    Image(systemName: "car")
-                }
+                TabItem(text: "Vehicles", systemIcon: "car")
             }
             
-            BlogPostsView()
-                .tabItem {
-                    VStack {
-                        Text("Blog")
-                        Image(systemName: "text.bubble")
-                    }
+            NavigationView {
+                BlogPostsView()
+            }
+            .tabItem {
+                TabItem(text: "Blog", systemIcon: "text.bubble")
             }
             
-            PartnersView()
-                .tabItem {
-                    VStack {
-                        Text("Partners")
-                        Image(systemName: "gauge")
-                    }
+            NavigationView {
+                PartnersView()
             }
+            .tabItem {
+                TabItem(text: "Partners", systemIcon: "gauge")
+            }
+        }
+    }
+}
+
+private struct TabItem: View {
+    let text: String
+    let systemIcon: String
+    
+    var body: some View {
+        VStack {
+            Text(text)
+            Image(systemName: systemIcon)
         }
     }
 }
