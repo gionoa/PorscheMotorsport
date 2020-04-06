@@ -14,16 +14,16 @@ struct VehicleView: View {
     
     var body: some View {
         ZStack(alignment: .bottomLeading) {
-            WebImage(url: URL(string: vehicle.url)!)
+            WebImage(url: URL(string: vehicle.imageURL)!)
                 .renderingMode(.original)
                 .resizable()
                 .placeholder {
                     Rectangle().foregroundColor(.gray)
-            }
-            .indicator(.activity)
-            .animation(.easeInOut(duration: 0.4))
-            .transition(.fade)
-            .scaledToFit()
+                }
+                .indicator(.activity)
+                .animation(.easeInOut(duration: 0.4))
+                .transition(.fade)
+                .scaledToFit()
             
             Spacer()
             
