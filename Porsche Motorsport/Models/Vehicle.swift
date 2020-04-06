@@ -10,7 +10,8 @@ import Foundation
 
 struct Vehicle: Identifiable {
     let id = UUID()
-    let url: String
+    let imageURL: String
+    let detailImageURL: String
     let name: String
     let power: String
     let engine: String
